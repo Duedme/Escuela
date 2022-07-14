@@ -9,9 +9,9 @@ int main() {
     if (entrada == NULL) { exit(1); }
 
     salida = fopen("salida.txt", "w");
-
+    
     while(!feof(entrada)) {
-        c = fgetc(entrada);
+        fscanf(entrada, "%c", &c);
         if (c != ' ') { fprintf(salida, "%c", c); }
         else { fprintf(salida, "_"); }
     }

@@ -11,7 +11,6 @@ int main() {
     if (entrada == NULL) { exit(1); }
 
     fscanf(entrada, "%d", &int_a);
-    fscanf(entrada, "%c", &plus);
     fscanf(entrada, "%d", &int_b);
 
     sum = int_a + int_b;
