@@ -1,0 +1,8 @@
+
+ Start  Stop   Length Name                   Class
+ 00000H 00016H 00017H _TEXT                  CODE
+ 00018H 00038H 00021H _DATA                  DATA
+ 00040H 0013FH 00100H STACK                  STACK
+
+ Origin   Group
+ 0001:0   DGROUP
